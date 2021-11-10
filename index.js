@@ -133,8 +133,8 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "51923568749"; 
-owner = "51923568749"; 
+targetpc = "666"; 
+owner = "666"; 
 fakeyoi = "Confu"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -144,7 +144,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@51923568749"; 
+nomorowner1 = "@666"; 
 fake = `𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : ${fakeyoi}\n︎𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -415,12 +415,12 @@ cmhit.push(command)
     //MESS
     mess = {
       wait: "𝗣𝗼𝗿 𝗳𝗮𝘃𝗼𝗿 𝗲𝘀𝗽𝗲𝗿𝗲 ± 𝘂𝗻 𝗺𝗶𝗻𝘂𝘁𝗼︎",
-      success: "𝗟𝗶𝘀𝘁𝗼 𝘅𝗱︎",
+      success: "𝗟𝗶𝘀𝘁𝗼",
       wrongFormat: "Formato incorrecto, inténtalo de nuevo en el menú",
       error: {
-        stick: "no es un sticker :v",
+        stick: "no es un sticker",
         apiz: "error!, tal vez porque la apikey ha caducado",
-        Iv: "Link inválido :v",
+        Iv: "Link inválido",
       },
       only: {
         group: "𝗦𝗼𝗹𝗼 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗱𝗼 𝗲𝗻 𝗴𝗿𝘂𝗽𝗼𝘀.",
@@ -475,7 +475,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "ConfuBot4",
+          orderTitle: "666",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -786,11 +786,11 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`),
             },
-            title: "ConfuBot4",
+            title: "666Bot",
             description: "Bot24/7",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "By ConfuMods",
+            retailerId: "666",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
